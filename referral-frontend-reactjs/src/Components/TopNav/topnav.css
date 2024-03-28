@@ -1,0 +1,56 @@
+.topnav-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0 0;
+  box-shadow: 1px 12px 17px -25px black;
+}
+.nav-logo {
+  position: relative;
+  height: 70px;
+  margin: 10px;
+}
+.nav-logo > img {
+  position: absolute;
+  object-fit: contain;
+  height: 100%;
+}
+
+.not-found {
+  position: relative;
+  height: 60vh;
+  width: 80vw;
+}
+.not-found > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: contain;
+  height: 100%;
+  width: 100%;
+}
+
+.logout {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 20px;
+  color: var(--color-white);
+  cursor: pointer;
+  padding: 5px 10px;
+  background-color: var(--primaryColor);
+  border-radius: 5px;
+  flex-grow: 1;
+  justify-content: center;
+}
+
+.topnav-btn-container {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+}
+
+.topnav-btn-container a {
+  font-size: 14px;
+  color: var(--color-white);
+}

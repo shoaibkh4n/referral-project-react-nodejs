@@ -1,0 +1,10 @@
+# Dependencies
+/referral-frontend-reactjs/node_modules/
+/referral-backend-nodejs/node_modules/
+
+# Environment variables
+/referral-frontend-reactjs/.env
+/referral-backend-nodejs/.env
+
+# Vercel configuration
+/referral-backend-nodejs/vercel.json

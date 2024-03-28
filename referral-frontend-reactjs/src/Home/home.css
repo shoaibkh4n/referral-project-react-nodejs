@@ -1,0 +1,57 @@
+.referral-bar {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.referral-bar > span {
+  padding: 5px 10px;
+  background-color: var(--primary-outline);
+  color: var(--color-white);
+  border-radius: 50px;
+}
+
+.referral-bar > svg {
+  font-size: 22px;
+  color: var(--primary-color);
+  cursor: pointer;
+  margin-bottom: 2px;
+}
+
+.existing-ref-container {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  background-color: var(--lighterColor);
+  justify-content: space-evenly;
+  padding: 10px;
+  border-radius: 30px;
+  flex-wrap: wrap;
+  row-gap: 13px;
+  margin-bottom: 10px;
+}
+
+.existing-ref-container > div {
+  padding: 5px 12px;
+  background-color: var(--lightFontColor);
+  border-radius: 10px;
+  word-break: break-all;
+  width: calc(100% / 5);
+  text-align: center;
+  min-width: 250px;
+}
+
+.existing-ref-container > .ref-delete {
+  color: var(--color-white);
+  cursor: pointer;
+  background-color: var(--delete-color);
+}
+
+.existing-ref-container > .ref-code {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 7px;
+  cursor: pointer;
+}
