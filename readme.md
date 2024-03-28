@@ -59,16 +59,17 @@ cd referral-project-react-nodejs
 3. Create .env file in each folder with the following content.
 
    - Backend:
-     DB_CONNECTION_URL = mongodbconnectionstring
-     JWT_SECRET = randomstring
-     COMPANY_MAIL_PASSWORD= randompassword
-     COMPANY_SENDING_MAIL= xyz@gmail.com
-     COMPANY_RECIVING_MAIL= xyz@gmail.com
-     COMPANY_NAME=XYZ
+
+     - DB_CONNECTION_URL = mongodbconnectionstring
+     - JWT_SECRET = randomstring
+     - COMPANY_MAIL_PASSWORD= randompassword
+     - COMPANY_SENDING_MAIL= xyz@gmail.com
+     - COMPANY_RECIVING_MAIL= xyz@gmail.com
+     - COMPANY_NAME=XYZ
 
    - Frontend:
-     REACT_APP_BASE_URL = http://localhost:8000
-     GENERATE_SOURCEMAP = false
+     - REACT_APP_BASE_URL = http://localhost:8000
+     - GENERATE_SOURCEMAP = false
 
 > Note: Make sure to replace the values of each env key mentioned above according to you.
 
