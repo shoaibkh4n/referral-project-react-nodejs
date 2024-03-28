@@ -153,7 +153,3 @@ Distributed under the MIT License. See [LICENCE](https://github.com/shoaibkh4n/r
 
 - Follow me on [Twitter](https://twitter.com/theshoaibkh4n) and [Linkedin](https://linkedin.com/in/shoaibkh4n)
 - Support my work with a [Donation](https://github.com/sponsors/shoaibkh4n) 🔥🚀
-
-```
-
-```
