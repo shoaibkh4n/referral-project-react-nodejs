@@ -95,12 +95,15 @@ cd referral-project-react-nodejs
 > Frontend built using the first version of my previous [react-saas-starter](https://github.com/shoaibkh4n/react-saas-starter) template. Few things got updated in that template which is switched from create-reat-app to vite and jsx to tsx , else is same.
 
 > Note: there is no interface for signup , so you need to create account using the api using postman or anything.
-> Just make a post request with the following as body content.
-> {
-> name: xyz
-> email: xyz@gmail.com
-> password: random
-> }
+> Just make a post request with the following as body content:
+
+```json
+{
+  "name": "xyz",
+  "email": "xyz@gmail.com",
+  "password": "random"
+}
+```
 
 ## Project Workflow
 
@@ -150,3 +153,7 @@ Distributed under the MIT License. See [LICENCE](https://github.com/shoaibkh4n/r
 
 - Follow me on [Twitter](https://twitter.com/theshoaibkh4n) and [Linkedin](https://linkedin.com/in/shoaibkh4n)
 - Support my work with a [Donation](https://github.com/sponsors/shoaibkh4n) 🔥🚀
+
+```
+
+```
